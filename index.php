@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon"> -->
 
   <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/lib/slick/css/slick.css" />
@@ -29,14 +29,14 @@
 
       <!-- Desktop Menu -->
       <nav>
-        <a href="" tabindex="0">Vantagens</a>
-        <a href="" tabindex="0">Produtos</a>
-        <a href="" tabindex="0">Quem somos</a>
+        <a href="#vantagens" tabindex="0">Vantagens</a>
+        <a href="#produtos" tabindex="0">Produtos</a>
+        <a href="#quemsomos" tabindex="0">Quem somos</a>
       </nav>
       <!-- End Desktop Menu -->
 
       <div class="d-none d-lg-block">
-        <a href="https://api.whatsapp.com/send?phone=5511999221039" role="button" class="century-button outlined" target="_blank">
+        <a href="https://web.whatsapp.com/send?phone=5511999221039" role="button" class="century-button outlined" target="_blank">
           Solicite um orçamento
         </a>
       </div>
@@ -51,10 +51,10 @@
       <div id="mobileMenu" class="mobile-menu">
         <div class="nav-links-wrapper">
           <a href="javascript:void(0)" class="close-menu-button" onclick="closeMobileMenu()">&times;</a>
-          <a href="" onclick="closeMobileMenu()">Vantagens</a>
-          <a href="" onclick="closeMobileMenu()">Produtos</a>
-          <a href="" onclick="closeMobileMenu()">Quem somos</a>
-          <a href="https://api.whatsapp.com/send?phone=5511999221039" role="button" class="century-button" target="_blank">
+          <a href="#vantagens" onclick="closeMobileMenu()">Vantagens</a>
+          <a href="#produtos" onclick="closeMobileMenu()">Produtos</a>
+          <a href="#quemsomos" onclick="closeMobileMenu()">Quem somos</a>
+          <a href="https://web.whatsapp.com/send?phone=5511999221039" role="button" class="century-button" target="_blank">
             Solicite um orçamento
           </a>
         </div>
@@ -74,7 +74,7 @@
             <div class="banner-content">
               <h1 class="banner-heading">Seu projeto em dia!</h1>
               <p>O maior estoque de Tubos de aço à sua disposição!</p>
-              <a href="https://api.whatsapp.com/send?phone=5511999221039" class="century-button outlined mt-4" target="_blank">Fale conosco</a>
+              <a href="https://web.whatsapp.com/send?phone=5511999221039" class="century-button outlined mt-4" target="_blank">Fale conosco</a>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@
     </section>
     <!-- End Section - Banner Home -->
 
-    <section class="wrapper">
+    <section class="wrapper" id="produtos">
       <div class="container text-center">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-11">
@@ -107,6 +107,12 @@
                   <span>Tubos estruturais</span>
                 </a>
               </div>
+              <div class="product-card-overlay">
+                <a href="https://centurytubos.com.br/produtos/tubos-de-aco-estruturais/">
+                  <span>Saiba mais</span>
+                </a>
+              </div>
+
             </div>
           </div>
 
@@ -120,6 +126,11 @@
               <div class="product-card-content">
                 <a href="https://centurytubos.com.br/produtos/tubos-de-conducao/">
                   <span>Tubos de condução</span>
+                </a>
+              </div>
+              <div class="product-card-overlay">
+                <a href="https://centurytubos.com.br/produtos/tubos-de-conducao/">
+                  <span>Saiba mais</span>
                 </a>
               </div>
             </div>
@@ -137,6 +148,11 @@
                   <span>Tubos trefilados</span>
                 </a>
               </div>
+              <div class="product-card-overlay">
+                <a href="https://centurytubos.com.br/produtos/tubos-de-aco-trefilados/">
+                  <span>Saiba mais</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -150,6 +166,11 @@
               <div class="product-card-content">
                 <a href="https://centurytubos.com.br/produtos/tubos-de-aco-cardan/">
                   <span>Tubos cardan</span>
+                </a>
+              </div>
+              <div class="product-card-overlay">
+                <a href="https://centurytubos.com.br/produtos/tubos-de-aco-cardan/">
+                  <span>Saiba mais</span>
                 </a>
               </div>
             </div>
@@ -167,11 +188,16 @@
                   <span>Tubos grandes</span>
                 </a>
               </div>
+              <div class="product-card-overlay">
+                <a href="https://centurytubos.com.br/campanha/tubos-grandes/">
+                  <span>Saiba mais</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511999221039" class="century-button" target="_blank">
+        <a href="https://web.whatsapp.com/send?phone=5511999221039" class="century-button" target="_blank">
           Quero meu tubo de aço a pronta entrega
         </a>
       </div>
@@ -194,7 +220,7 @@
           <div class="col-lg-10">
             <div class="row rows-cols-lg-4 carousel-cards">
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/1.svg" alt="Maquinário industrial">
@@ -205,7 +231,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/2.svg" alt="Agrícola">
@@ -216,7 +242,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/3.svg" alt="Naval">
@@ -227,7 +253,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/4.svg" alt="Implementos veiculares">
@@ -238,7 +264,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/5.svg" alt="Construção civil">
@@ -249,7 +275,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/6.svg" alt="Redes de incêncio">
@@ -260,7 +286,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/7.svg" alt="Indústria química">
@@ -271,7 +297,7 @@
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col-lg-3">
                 <div class="icon-card">
                   <div class="icon-card-asset">
                     <img src="assets/images/icons/segments/8.svg" alt="Arquitetura">
@@ -285,19 +311,19 @@
           </div>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511999221039" class="century-button" target="_blank">
+        <a href="https://web.whatsapp.com/send?phone=5511999221039" class="century-button" target="_blank">
           QUERO SOLICITAR UM ORÇAMENTO
         </a>
 
       </div>
     </section>
 
-    <section class="wrapper tubos-background">
+    <section class="wrapper tubos-background" id="vantagens">
       <div class="container">
         <div class="row mb-5">
           <div class="col-10 col-lg-8">
             <h2 class="section-heading">
-              Variedade a pronta entrega para projetos que não podem <br>esperar
+              Variedade a pronta entrega para projetos que não podem esperar
             </h2>
           </div>
           <div class="col-lg-5">
@@ -381,16 +407,19 @@
           <div class="col-lg-6 mt-3 mt-lg-0">
             <div class="century-form">
               <form action="">
+                <input type="text" name="" id="" placeholder="Nome">
+                <input type="email" name="" id="" placeholder="E-mail">
+
                 <div class="row">
-                  <div class="col-lg-6">
-                    <input type="text" name="" id="" placeholder="Nome">
-                  </div>
                   <div class="col-lg-6">
                     <input type="text" name="" id="" placeholder="Empresa">
                   </div>
+                  <div class="col-lg-6">
+                    <input type="text" name="" id="" placeholder="CNPJ">
+                  </div>
                 </div>
-                <input type="email" name="" id="" placeholder="E-mail">
-                <textarea name="" id="" cols="20" rows="3" placeholder="Mensagem"></textarea>
+
+                <textarea name="" id="" cols="20" rows="10" placeholder="Mensagem"></textarea>
                 <input type="submit" value="Enviar" class="century-button">
               </form>
             </div>
@@ -399,7 +428,7 @@
       </div>
     </section>
 
-    <section class="wrapper">
+    <section class="wrapper" id="quemsomos">
       <div class="container">
         <div class="row justify-content-between align-items-center">
 
@@ -423,6 +452,7 @@
               <div class="video-lightbox">
                 <img src="assets/images/icons/player.svg" alt="Player" width="108" height="108">
                 <span>Conheça a trajetória da Century Tubos</span>
+                <a href="https://www.youtube.com/watch?v=LZMOafJd8E8" target="_blank" aria-label="Conheça a trajetória da Century Tubos no YouTube"></a>
               </div>
 
               <div class="contact-info">
@@ -437,7 +467,7 @@
                   </div>
 
                   <div class="col-lg-6">
-                    <a href="https://api.whatsapp.com/send?phone=5511999221039" class="link-with-icon" aria-label="Fale com a Century no WhatsApp" target="_blank">
+                    <a href="https://web.whatsapp.com/send?phone=5511999221039" class="link-with-icon" aria-label="Fale com a Century no WhatsApp" target="_blank">
                       <img src="assets/images/icons/whatsapp.svg" alt="Whatsapp">
                       11 9 9922-1039
                     </a>
