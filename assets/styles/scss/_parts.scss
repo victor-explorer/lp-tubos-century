@@ -219,6 +219,11 @@ header {
     line-height: 35px;
   }
 
+  @media (min-width: 768px) and (max-width: 1366px) {
+    background-position: 115% -20%;
+    background-size: 50%;
+  }
+
   @media (max-width:768px) {
     padding-top: 35vh !important;
     background-position: -15% -5%;

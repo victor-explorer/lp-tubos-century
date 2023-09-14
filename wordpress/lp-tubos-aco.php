@@ -291,7 +291,7 @@
             <img src="<?php echo get_template_directory_uri() . '/lp-tubos-aco/assets/images/icons/2.svg' ?>" alt="Ícone">
           </div>
           <p>
-            Um dos únicos fornecedores do país com tubos em grandes dimensões a pronta entrega
+            Um dos únicos fornecedores com tubos em grandes dimensões a pronta entrega
           </p>
         </div>
       </div>
@@ -313,7 +313,7 @@
             <img src="<?php echo get_template_directory_uri() . '/lp-tubos-aco/assets/images/icons/4.svg' ?>" alt="Ícone">
           </div>
           <p>
-            Empresa certificada ISO 9001
+            Empresa certificada <br> ISO 9001
           </p>
         </div>
       </div>
@@ -332,7 +332,7 @@
   </div>
 </section>
 
-<section class="wrapper century-background" id="quemsomos">
+<section class="wrapper century-background">
   <div class="container">
     <div class="row justify-content-between align-items-center text-center text-lg-start">
       <div class="col-lg-5">
@@ -353,7 +353,7 @@
   </div>
 </section>
 
-<section class="wrapper">
+<section class="wrapper" id="quemsomos">
   <div class="container">
     <div class="row justify-content-between align-items-center">
 
@@ -375,9 +375,7 @@
       <div class="col-lg-6">
         <div class="talk-us">
           <div class="video-lightbox">
-            <img src="<?php echo get_template_directory_uri() . '/lp-tubos-aco/assets/images/icons/player.svg' ?>" alt="Player" width="108" height="108">
-            <span>Conheça a trajetória da Century Tubos</span>
-            <a href="https://www.youtube.com/watch?v=LZMOafJd8E8" target="_blank" aria-label="Conheça a trajetória da Century Tubos no YouTube"></a>
+            <iframe src="https://www.youtube.com/embed/LZMOafJd8E8?si=o-1EG9QmkNh7bAdF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 
           <div class="contact-info">
